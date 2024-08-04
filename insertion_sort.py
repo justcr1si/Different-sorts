@@ -6,7 +6,6 @@ def insertion_sort(arr):
             arr[prev + 1] = arr[prev]
             prev -= 1
         arr[prev + 1] = current
-        print(f'Шаг {i}, отсортировано элементов: {i + 1}, {arr}')
 
 
 insertion_sort([2, 9, 11, 7, 1])
