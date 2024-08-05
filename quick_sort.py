@@ -27,6 +27,6 @@ def partition(array, pivot):
     return left, center, right
 
 
-arr = [44, 60, 10, 61, 60, 2, 62, 18, 2, 69]
+arr = list(map(int, input().split()))
 result = quicksort(arr)
 print(result)
